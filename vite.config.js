@@ -5,7 +5,7 @@ export default defineConfig({
   plugins: [react()],
   root: 'public', // Set the root directory to public
   build: {
-    outDir: '../dist', // Build files will be output to dist folder
-    emptyOutDir: true, // Clear the output directory before each build
+    outDir: '../dist', // Build output directory
+    emptyOutDir: true, // Clear out the output directory before build
   },
 });
