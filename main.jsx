@@ -1,6 +1,6 @@
 your-project/
 ├── public/
-│   └── index.html    // This file should exist
+│   └── index.html    // Ensure this file exists
 ├── src/
 │   ├── main.jsx      // Your main entry point
 │   └── other-components/
