@@ -1,9 +1,8 @@
-* {
-  box-sizing: border-box;
-  margin: 0;
-  padding: 0;
-}
-
-@tailwind base;
-@tailwind components;
-@tailwind utilities;
+your-project/
+├── public/
+│   └── index.html    // Ensure this file exists
+├── src/
+│   ├── main.jsx      // Main entry point for your application
+│   └── other-components/
+├── package.json
+└── vite.config.js
