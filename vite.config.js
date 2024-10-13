@@ -3,9 +3,9 @@ import react from '@vitejs/plugin-react';
 
 export default defineConfig({
   plugins: [react()],
-  root: 'public',  // Set the root to the public directory
+  root: 'public', // Set the root directory to public
   build: {
-    outDir: '../dist',  // Output build files to a directory outside public
-    emptyOutDir: true,  // Clean the output directory before each build
+    outDir: '../dist', // Build files will be output to dist folder
+    emptyOutDir: true, // Clear the output directory before each build
   },
 });
